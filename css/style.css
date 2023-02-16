@@ -1,0 +1,86 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+}
+
+p,
+a,
+input,
+textarea {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.nav-btn {
+    font-size: 18px;
+}
+
+.nav-mrgn {
+    margin-right: 20px;
+}
+
+.banner {
+    background-image: linear-gradient(to top, black, transparent), url("../images/banner.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content {
+    max-width: 700px;
+    padding: 105px 20px;
+}
+
+.banner-dsc {
+    color: #E7E7E7;
+}
+
+.section-dsc {
+    max-width: 700px;
+}
+
+.practice:hover {
+    background-image: linear-gradient(to bottom, #F3F3F3, transparent);
+}
+
+.car-bg {
+    background-image: url("../images/rectangle7.png"), url("../images/banner.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.car-content {
+    max-width: 900px;
+}
+
+.accordion-body,
+.accordion-header,
+.accordion-button {
+    background-color: #F3F3F3 !important;
+}
+
+.contact-left {
+    background-color: #F3F3F3;
+}
+
+.contact-form>input,
+.contact-form>textarea {
+    width: 100%;
+    background-color: #F3F3F3;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+footer {
+    background-color: #111111;
+}
+
+.text-footer {
+    color: #CFCFCF;
+}
